@@ -9,8 +9,6 @@ public class PriceCalculator {
 
     private DiscountType discountType;
 
-    public static String name;
-
     public PriceCalculator(double pricePerDay, int days, Season season, DiscountType discountType) {
         this.pricePerDay = pricePerDay;
         this.days = days;
