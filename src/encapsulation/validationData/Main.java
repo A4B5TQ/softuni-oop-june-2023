@@ -1,6 +1,6 @@
 package encapsulation.validationData;
 
-import encapsulation.firstAndReserveTeam.Team;
+import encapsulation.firstAndReserveTeam.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Main {
         Team team = new Team("Black Eagles");
 
         for (Person person : people) {
-            team.addPlayer(person);
+//            team.addPlayer(person);
         }
 
         System.out.println(team.getFirstTeam().size());

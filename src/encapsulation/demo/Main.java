@@ -12,7 +12,7 @@ public class Main {
         asd.add("Gosho");
         asd.add("Stamat");
         asd.add("Unufri");
-        person.setInnerData(asd);
+//        person.setInnerData(asd);
 
         System.out.println(person.getInnerData());
         System.out.println(person.getInnerData().add("Mariq"));
