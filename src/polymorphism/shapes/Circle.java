@@ -4,6 +4,9 @@ public class Circle extends Shape {
 
     private Double radius;
 
+    public Circle() {
+    }
+
     public Circle(Double radius) {
         this.radius = radius;
     }
@@ -19,4 +22,5 @@ public class Circle extends Shape {
         double area = Math.PI * Math.pow(this.radius, 2);
         super.setArea(area);
     }
+
 }
